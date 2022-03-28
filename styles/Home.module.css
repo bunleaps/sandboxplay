@@ -21,6 +21,21 @@
   font-size: 20px;
   border-radius: 5px;
   outline: none;
+  width: 150px;
+  font-weight: bold;
+}
+
+.button2 {
+  padding: 1rem;
+  margin: 1rem;
+  background: #5500f3;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  width: 150px;
+  font-weight: bold;
 }
 
 a.link {

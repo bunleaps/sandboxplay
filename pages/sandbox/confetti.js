@@ -25,9 +25,17 @@ export default function AppConfetti() {
 
       <main className={styles.main}>
         <h2 className={styles.title}>React Confetti on Follow!</h2>
-        <button className={styles.button1} onClick={() => followButton()}>
-          {!follow ? "Follow" : "Followed"}
-        </button>
+        {/* Follow Button */}
+        {!follow ? (
+          <button className={styles.button1} onClick={() => followButton()}>
+            Follow
+          </button>
+        ) : (
+          <button className={styles.button2} onClick={() => followButton()}>
+            Followed
+          </button>
+        )}
+        {/* React Confetti on complete(true) */}
         {complete && (
           <Confetti
             width={width}
