@@ -12,20 +12,26 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.button1 {
+  padding: 1rem;
+  margin: 1rem;
+  background: #0070f3;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+a.link {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a.link:hover,
+a.link:focus,
+a.link:active {
+  text-decoration: underline;
 }
 
 .title a {
